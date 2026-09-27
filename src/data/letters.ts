@@ -194,7 +194,7 @@ La niña que hace que mis ojos brillen, la mujer que quiero hacer feliz en mi vi
 
 Te amo`,
     images: [
-      { src: "/memories/emily-sombrero.jpeg", alt: "Emily con sombrero de ala ancha bajo los árboles", width: 810, height: 1080 },
+      { src: "/memories/emily-sombrero.jpeg", alt: "Emilita con sombrero de ala ancha bajo los árboles", width: 810, height: 1080, caption: "Emilita" },
     ],
   },
 ];

@@ -6,7 +6,7 @@ import type { Letter, LetterBlock, LetterImage } from "@/types/letter";
 
 function Photo({ image }: { image: LetterImage }) {
   const data = typeof image === "string" ? { src: image, alt: "Fotografía de nuestros recuerdos", width: 1200, height: 900 } : image;
-  return <figure className="letter-photo"><Image src={data.src} alt={data.alt} width={data.width} height={data.height} sizes="(max-width: 650px) 85vw, 550px" /></figure>;
+  return <figure className="letter-photo"><Image src={data.src} alt={data.alt} width={data.width} height={data.height} sizes="(max-width: 650px) 85vw, 550px" />{data.caption && <figcaption>{data.caption}</figcaption>}</figure>;
 }
 
 function Block({ block }: { block: LetterBlock }) {

@@ -103,6 +103,7 @@ button, a, input { touch-action: manipulation; }
 .letter-text { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(--serif); font-size: 18px; line-height: 1.9; }
 .letter-photo { margin: 0; padding: 8px; background: #fffdf9; box-shadow: 0 2px 6px #3f2e1f14; }
 .letter-photo img { display: block; width: 100%; height: auto; }
+.letter-photo figcaption { padding: 10px 4px 2px; color: #8c7564; font-family: var(--serif); font-size: 15px; font-style: italic; text-align: center; }
 .letter-content audio, .letter-content video { display: block; width: 100%; max-width: 100%; border-radius: 3px; }
 .letter-audio p { font-size: 13px; margin-bottom: 10px; }
 .opening-envelope { position: absolute; width: min(310px, calc(100vw - 48px)); height: 217px; pointer-events: none; z-index: 1; }
